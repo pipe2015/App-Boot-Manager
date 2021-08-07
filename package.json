@@ -1,0 +1,26 @@
+{
+  "name": "app-boot-coint",
+  "version": "1.0.0",
+  "description": "App Auto window open Roll click Freecoint",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Felipe Arias (@peyi Arias)",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-route": "^1.8.2",
+    "chrome-launcher": "^0.14.0",
+    "chrome-profile-list": "^1.1.0",
+    "co": "^4.6.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "puppeteer": "^10.1.0",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
